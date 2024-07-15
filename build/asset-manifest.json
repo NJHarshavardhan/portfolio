@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a84fef28.css",
-    "main.js": "/portfolio/static/js/main.585cb223.js",
+    "main.css": "/portfolio/static/css/main.e4428cde.css",
+    "main.js": "/portfolio/static/js/main.cb8b7399.js",
     "static/media/bannerImg.png": "/portfolio/static/media/bannerImg.667b4cad9dc5be9b69b0.png",
     "static/media/contactImg.png": "/portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
     "static/media/logo.png": "/portfolio/static/media/logo.43765d284e336a8b0f1a.png",
+    "static/media/nav-logo.png": "/portfolio/static/media/nav-logo.26acfa82f80e6e92d3ab.png",
+    "static/media/Harsha-Resume-F.pdf": "/portfolio/static/media/Harsha-Resume-F.18523f358a088e11a767.pdf",
     "static/media/projectTwo.jpg": "/portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
     "index.html": "/portfolio/index.html",
-    "main.a84fef28.css.map": "/portfolio/static/css/main.a84fef28.css.map",
-    "main.585cb223.js.map": "/portfolio/static/js/main.585cb223.js.map"
+    "main.e4428cde.css.map": "/portfolio/static/css/main.e4428cde.css.map",
+    "main.cb8b7399.js.map": "/portfolio/static/js/main.cb8b7399.js.map"
   },
   "entrypoints": [
-    "static/css/main.a84fef28.css",
-    "static/js/main.585cb223.js"
+    "static/css/main.e4428cde.css",
+    "static/js/main.cb8b7399.js"
   ]
 }
