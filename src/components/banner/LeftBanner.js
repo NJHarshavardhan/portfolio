@@ -1,22 +1,23 @@
-import React from 'react'
+import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaLinkedinIn, FaReact, FaGithub, FaInstagram } from "react-icons/fa";
+import { SiFirebase, SiFlutter, SiNodedotjs } from "react-icons/si";
 
 const LeftBanner = () => {
-    const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
-      loop: true,
-      typeSpeed: 20,
-      deleteSpeed: 10,
-      delaySpeed: 2000,
-    });
+  const [text] = useTypewriter({
+    words: ["Professional Coder.", "Flutter Developer.", "Software Engineer."],
+    loop: true,
+    typeSpeed: 20,
+    deleteSpeed: 10,
+    delaySpeed: 2000,
+  });
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm{" "}
+          <span className="text-designColor capitalize">Harsha Vardhan NJ</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,9 +28,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Software Engineer with specialized skills in Flutter, Node.js, AWS
+          Lambda, Supabase, and React. Known for creating high-performance
+          applications with seamless user interfaces. Experienced in both
+          frontend and backend development, ensuring security, efficiency, and a
+          strong focus on user experience.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -38,15 +41,31 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
-            <span className="bannerIcon">
+            <a
+              href="https://www.linkedin.com/in/harshavardhannj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
+
+            <a
+              href="https://github.com/NJHarshavardhan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="https://www.instagram.com/harshavardhannj/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaInstagram />
+            </a>
           </div>
         </div>
         <div>
@@ -55,22 +74,22 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
+              <SiFlutter />
+            </span>
+            <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiNodedotjs />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
+              <SiFirebase />
             </span>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default LeftBanner
+export default LeftBanner;

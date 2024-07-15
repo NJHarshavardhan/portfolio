@@ -13,10 +13,10 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+        <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
           <li
             onClick={() =>
               setEducationData(true) &
@@ -60,7 +60,7 @@ const Resume = () => {
           >
             Experience
           </li>
-          <li
+          {/*<li
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
@@ -74,7 +74,7 @@ const Resume = () => {
             } resumeLi`}
           >
             Achievements
-          </li>
+          </li> */}
         </ul>
       </div>
       {educationData && <Education />}

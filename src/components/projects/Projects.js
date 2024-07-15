@@ -1,7 +1,6 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+import React from "react";
+import Title from "../layouts/Title";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -15,46 +14,29 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="HYRA"
+          des={`Developed a responsive user interface for a vacation rental
+          Experience booking platform, optimized for Android & iOS.
+          Utilized Riverpod for efficient state management.
+          Leveraged real-time Firebase database and Google Analytics for performance tracking.
+          Integrated login features for Google, Facebook, Apple, and Naver.`}
+          appUrl={'https://play.google.com/store/apps/details?id=com.cron24.hyra&hl=en-IN'}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          title="CABBY Uber Clone Script"
+          des={`Created an Uber clone script with separate apps for Rider and Driver.
+          Implemented background service for seamless app operation.
+          Added Wallet and Payout Methods for financial transactions.
+          Integrated Geo Locator for real-time user location tracking.
+          Incorporated multiple user locale translation files for localized`}
+          appUrl={'https://play.google.com/store/apps/details?id=com.cron24.cabby&hl=en&gl=US'}
+          appUrl1={'https://play.google.com/store/apps/details?id=com.cron24.cabbydriver&hl=en&gl=US'}
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
