@@ -1,4 +1,5 @@
 import logo from "./images/logo.png";
+import resume from "./Harsha-Resume-F.pdf";
 import navLogo from "./images/nav-logo.png";
 import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
@@ -14,4 +15,5 @@ export {
   projectTwo,
   quote,
   contactImg,
+  resume,
 };
