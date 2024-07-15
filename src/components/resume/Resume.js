@@ -4,7 +4,7 @@ import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
 import Experience from "./Experience"
-
+import { FaDownload} from "react-icons/fa";
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
@@ -14,6 +14,12 @@ const Resume = () => {
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
         <Title title="2+ YEARS OF EXPERIENCE" des="My Resume" />
+        <div style={{ marginLeft: "20px" ,marginBottom:"20px"}}>
+        <a href="https://ik.imagekit.io/nz0mhbk9t/Harsha-Resume-F.pdf?updatedAt=1721041421588" download="Harsha-Resume-F.pdf"target="_blank" 
+               rel="noopener noreferrer">
+        <FaDownload />
+            </a>
+        </div>
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
