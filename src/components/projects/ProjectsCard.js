@@ -14,29 +14,28 @@ const ProjectsCard = ({ title, des, appUrl, appUrl1 }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              {/* <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub />
-  </span> */}
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <a href={appUrl} target="_blank" rel="noopener noreferrer">
                   <FaAndroid />
                 </a>
               </span>
-              {appUrl1 ? (
+              {appUrl1 && (
                 <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                   <a href={appUrl1} target="_blank" rel="noopener noreferrer">
                     <FaAndroid />
                   </a>
                 </span>
-              ) : null}
+              )}
             </div>
           </div>
-          {/* Render each line of des as a bullet point */}
           <div className="mt-3">
-            <ul className="list-disc list-inside">
+            <ul className="list-none space-y-3">
               {desLines.map((line, index) => (
-                <li key={index} className="text-sm tracking-wide text-gray-300">
-                  {line.trim()}
+                <li key={index} className="flex items-start space-x-2">
+                  <span className="w-2.5 h-2.5 mt-1 bg-designColor rounded-full"></span>
+                  <p className="text-sm tracking-wide text-gray-300">
+                    {line.trim()}
+                  </p>
                 </li>
               ))}
             </ul>

@@ -15,9 +15,8 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
         <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:h-[700px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-
           <ResumeCard
-            title="Master of Computer"
+            title="Master of Computer Applications"
             subTitle="K.L.N. COLLEGE OF ENGINEERING (April 2022)"
             result="9.1/10"
             //des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
@@ -36,7 +35,7 @@ const Education = () => {
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[700px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:h-[700px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Software Engineer"
             subTitle="BINARYCHAKRA - (Oct 2023 - Present)"
