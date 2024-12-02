@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../layouts/Title";
 import ProjectsCard from "./ProjectsCard";
+import { FaShopify } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -14,7 +15,18 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
+  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
+
+      <ProjectsCard
+          title="STORE BLOG - SHOPIFY EMBEDDED APP"
+          des={`Developed an AI-powered application for Shopify stores that generates blog articles using OpenAI’s GPT model.
+          Integrated AI to create Prompt for, SEO-optimized article.
+          Implemented scheduled publishing features with AWS Cron, allowing for automatic and timely article postings.
+          Utilized cosine similarity and embeddings to improve content relevance and enhance user experience.
+          Enabled content repurposing to share articles across various platforms,maximizing reach and engagement.`}
+          appUrl={'https://apps.shopify.com/storeblog-boost-your-store-seo?show_store_picker=1&st_source=autocomplete'}
+          icon = {FaShopify}
+        />
         <ProjectsCard
           title="HYRA"
           des={`Developed a responsive user interface for a vacation rental

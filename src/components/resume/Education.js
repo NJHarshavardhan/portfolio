@@ -14,7 +14,7 @@ const Education = () => {
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:h-[700px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 rounded-lg">
           <ResumeCard
             title="Master of Computer Applications"
             subTitle="K.L.N. COLLEGE OF ENGINEERING (April 2022)"
@@ -35,19 +35,18 @@ const Education = () => {
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:h-[700px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full h-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 lg:w-[600px] lg:border-l-[6px] lg:border-l-black lg:border-opacity-30 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 rounded-lg">
           <ResumeCard
             title="Software Engineer"
             subTitle="BINARYCHAKRA - (Oct 2023 - Present)"
             result="Madurai"
-            des="Engineered and executed Shopify applications using React, Node.js, Shopify Polaris, and Firestore. Optimized code deployment processes using AWS Lambda and the Serverless Framework."
+            des="Developed and optimized Shopify applications using React, Node.js, Polaris, and Remix, enhancing user engagement and performance. Built cross-platform Mac applications with Flutter to streamline development and maintenance. Applied prompt engineering and AI Models, techniques like cosine similarity to generate high-quality blogs and images, improving content relevance and user experience."
           />
           <ResumeCard
             title="Mobile App Developer"
             subTitle="CRON24 TECHNOLOGIES - (Mar 2022 – Sept 2023)"
             result="Madurai"
-            des={`Architected efficient state management systems for mobile applications.
-            Built and maintained mobile applications using Dart, Flutter, APIs, and JSON`}
+            des={`Designed and built state management systems for Android and iOS apps, ensuring smooth and reliable functionality. Developed mobile applications using Flutter, integrating APIs for features like Google Maps, Stripe payments, Firebase notifications, and Google Analytics. Translated detailed Figma designs into responsive Flutter UIs and managed multilingual translations to support users worldwide`}
           />
         </div>
       </div>

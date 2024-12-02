@@ -28,11 +28,12 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          Software Engineer with specialized skills in Flutter, Node.js, AWS
-          Lambda, Supabase, and React. Known for creating high-performance
-          applications with seamless user interfaces. Experienced in both
-          frontend and backend development, ensuring security, efficiency, and a
-          strong focus on user experience.
+          Software Engineer experienced in Flutter, Node.js, AWS Lambda,
+          Supabase, and React, with a passion for building user-friendly
+          applications. With a strong background in frontend & backend
+          development, I have recently explored AI models to generate images and
+          blogs, enhancing my skills in prompt engineering and using techniques
+          like cosine similarity and embeddings to improve content relevance.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

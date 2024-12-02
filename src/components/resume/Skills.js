@@ -42,6 +42,8 @@ const Skills = () => {
         <div className="flex flex-col gap-4">
           <SkillCard skill="Shopify" icon="🛒" level="Intermediate" />
           <SkillCard skill="AWS Lambda" icon="☁️" level="Advanced" />
+          <SkillCard skill="AI Models" icon="☁️" level="Advanced" />
+          <SkillCard skill="Prompt Engineering" icon="☁️" level="Advanced" />
           <SkillCard skill="Serverless (SLS)" icon="🚀" level="Intermediate" />
           <SkillCard skill="Firebase" icon="🔥" level="Intermediate" />
           <SkillCard skill="GitHub" icon="🐙" level="Advanced" />

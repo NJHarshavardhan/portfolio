@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { logo, navLogo ,} from "../../assets/index";
+import { logo, navLogo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 
 const Navbar = () => {
@@ -11,8 +11,11 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
-        <img src={logo} alt="logo" style={{height:"90px" , padding:"10px"}}/>
-     
+        <img
+          src={logo}
+          alt="logo"
+          style={{ height: "90px", padding: "10px" }}
+        />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -46,11 +49,13 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={navLogo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Software Engineer with specialized skills in Flutter, Node.js,
-                  AWS Lambda, Supabase, and React. Known for creating
-                  high-performance applications with seamless user interfaces.
-                  Experienced in both frontend and backend development, ensuring
-                  security, efficiency, and a strong focus on user experience.
+                  Software Engineer experienced in Flutter, Node.js, AWS Lambda,
+                  Supabase, and React, with a passion for building user-friendly
+                  applications. With a strong background in frontend & backend
+                  development, I have recently explored AI models to generate
+                  images and blogs, enhancing my skills in prompt engineering
+                  and using techniques like cosine similarity and embeddings to
+                  improve content relevance.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
